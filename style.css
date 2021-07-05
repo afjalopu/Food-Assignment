@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* section 0 Starts from here */
+.nav-div
+{
+    text-align: right;
+    margin-bottom: 0;
+    padding: 60px 10px;
+}
+.nav-div ul a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+.nav-div ul a::after
+{
+    content: '';
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    top: 84%;
+    background-color: rgb(255, 68, 0);
+    transition: .7s;
+    transform: translate(-50%);
+}
+.nav-div ul a:hover::after
+
+{
+    width: 90%;
+}
+/* section 0 Ends here */
+
+/* section 1 starts from here */
+.section-one {
+  display: flex;
+}
+.left-div,
+.right-div {
+  padding: 3% 3%;
+  width: 50%;
+}
+.left-div {
+  padding: 21% 4%;
+  text-align: center;
+}
+.left-div h1 {
+  font-size: 2.5rem;
+}
+.left-div span {
+  color: orangered;
+}
+.left-div p {
+  padding: 20px 5px;
+  margin-left: 28px;
+  font-size: 1.2rem;
+}
+.left-div a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 148, 110),
+    rgb(248, 51, 25)
+  );
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 15px 25px;
+  border-radius: 30px;
+  position: absolute;
+  left: 150px;
+}
+.right-div img {
+  height: 90%;
+  padding: 5% 3%;
+}
+/* section 1 Ends here */
+
+/* <!-- section 2 starts from here --> */
+.section-two {
+  display: flex;
+  padding: 9% 9%;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(images/7.png);
+}
+
+.second-section-left-div {
+  width: 50%;
+}
+.second-section-left-div img {
+  width: 50%;
+}
+
+.second-section-right-div a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(250, 116, 68),
+    rgb(248, 51, 25)
+  );
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 15px 25px;
+  border-radius: 30px;
+  position: absolute;
+  left: 725px;
+}
+
+.second-section-right-div {
+  width: 50%;
+  padding: 8% 4%;
+}
+.second-section-right-div p {
+  padding: 20px 5px;
+  font-size: 1.2rem;
+}
+.second-section-right-div h1 {
+  font-size: 2.5rem;
+}
+/* <!-- section 2 Ends here --> */
+
+/* <!-- section 3 starts from here --> */
+.recipies-text {
+  text-align: center;
+  padding: 2% 15%;
+}
+.recipies-text h1 {
+  font-size: 2.5rem;
+}
+.recipies-text p {
+  font-size: 1.2rem;
+}
+.mother-div {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 3% 7%;
+}
+.child-div {
+  width: 33%;
+  box-shadow: 3px 3px 17px 2px rgb(194, 192, 192);
+  margin: 20px;
+  border-radius: 30px;
+}
+.child-div .card-body img {
+  width: 100%;
+}
+.card-body {
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.mother-div h2,
+.p {
+  padding: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+/* <!-- section 3 Ends here --> */
+
+
+/* <!-- section 4 starts from here --> */
+
+.google-map
+{
+    width: 100%;
+}
+.socialmedia
+{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.9rem;
+    margin: 0;
+}
+.socialmedia i
+{
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.socialmedia i:hover
+{
+    color: rgb(255, 46, 46);
+    transform: rotate(360deg);
+}
+
+/* <!-- section 4 Ends here --> */
+
+
+/* <!-- footer section starts from here --> */
+.footer-section {
+  background-color: black;
+  height: 40vh;
+  padding: 3% 10%;
+}
+.footer-div {
+  text-align: center;
+}
+.footer-div h1 {
+  text-transform: uppercase;
+}
+.footer-div p {
+  color: white;
+}
+.span-one {
+  color: coral;
+}
+.span-two {
+  color: gray;
+}
+/* <!-- footer section Ends here --> */
