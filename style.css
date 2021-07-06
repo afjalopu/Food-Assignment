@@ -8,39 +8,34 @@ body {
 }
 
 /* section 0 Starts from here */
-.nav-div
-{
-    text-align: right;
-    margin-bottom: 0;
-    padding: 60px 10px;
+.nav-div {
+  text-align: right;
+  margin-bottom: 0;
+  padding: 60px 10px;
 }
-.nav-div ul a
-{
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 10px;
-    margin-left: 20px;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bold;
-    position: relative;
+.nav-div ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  position: relative;
 }
-.nav-div ul a::after
-{
-    content: '';
-    height: 4px;
-    width: 0%;
-    position: absolute;
-    left: 50%;
-    top: 84%;
-    background-color: rgb(255, 68, 0);
-    transition: .7s;
-    transform: translate(-50%);
+.nav-div ul a::after {
+  content: "";
+  height: 4px;
+  width: 0%;
+  position: absolute;
+  left: 50%;
+  top: 84%;
+  background-color: rgb(255, 68, 0);
+  transition: 0.7s;
+  transform: translate(-50%);
 }
-.nav-div ul a:hover::after
-
-{
-    width: 90%;
+.nav-div ul a:hover::after {
+  width: 90%;
 }
 /* section 0 Ends here */
 
@@ -173,35 +168,59 @@ body {
 }
 /* <!-- section 3 Ends here --> */
 
-
 /* <!-- section 4 starts from here --> */
-
-.google-map
-{
-    width: 100%;
+.section-four {
+  padding: 0% 2%;
 }
-.socialmedia
-{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.9rem;
-    margin: 0;
+.father-div {
+  display: flex;
 }
-.socialmedia i
-{
-    margin: 15px;
-    color: rgb(0, 0, 0);
-    transition: 1s;
+.google-map,
+.socialmedia {
+  width: 50%;
 }
-.socialmedia i:hover
-{
-    color: rgb(255, 46, 46);
-    transform: rotate(360deg);
+.google-map {
+  width: 100%;
 }
-
+.socialmedia {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 3% 3%;
+}
+.socialmedia i {
+  margin: 15px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+.socialmedia h4 {
+  padding: 15px 10px;
+  text-transform: uppercase;
+}
+.socialmedia i:hover {
+  transform: rotate(360deg);
+}
+.socialmedia a .fa-arrow-up {
+  color: rgb(255, 0, 64);
+}
+.socialmedia a .fa-facebook {
+  color: rgb(7, 84, 114);
+}
+.socialmedia a .fa-facebook-messenger {
+  color: rgb(23, 172, 231);
+}
+.socialmedia a .fa-instagram {
+  color: rgb(255, 60, 0);
+}
+.socialmedia a .fa-youtube {
+  color: rgb(255, 0, 0);
+}
+.socialmedia a .fa-whatsapp {
+  color: rgb(7, 204, 0);
+}
 /* <!-- section 4 Ends here --> */
-
 
 /* <!-- footer section starts from here --> */
 .footer-section {
